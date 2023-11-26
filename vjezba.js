@@ -48,15 +48,14 @@ let suma=kolicinaNovca-pdv;
 
 suma += b;
 
-let KolicinaSume = {
-   switch (suma>kolicinaNovca) {
-      case true:
-        console.warn("tranzakcija nije mogucja jer je kolicina sume" + suma + "a kolicina novca koju vi imate jeste" + kolicinaNovca);
-       break;
-      case false:
+switch (suma > kolicinaNovca) {
+   case (true):
+        console.warn("tranzakcija nije mogucja jer je kolicina sume je" + suma + ",a kolicina novca koju vi imate jeste" + kolicinaNovca);
+      break;
+   case (false):
         console.log("Vasa tranzakcija je uspjesno odradjena");  
-       break;
+      break;
    }   
-}
+
 
 
