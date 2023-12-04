@@ -4,6 +4,7 @@ let c=a++ - b;
 let d=--a * c;
 let e=a - ++b;
 let f=e-- + c;
+let x=c++ - a;
 //moja kalkulacija je bila tacna za sve brojeve
 
 if (a>b) {
@@ -56,6 +57,42 @@ switch (suma > kolicinaNovca) {
         console.log("Vasa tranzakcija je uspjesno odradjena");  
       break;
    }   
+ 
+console.log(a); 
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
+console.log(f);
+console.log(x);
+
+for (let y=20 ; y>=1 ; y--) {
+   if ( y % 2===1 ) {
+      console.log( y );
+   }
+}
 
 
+for (let p=1 ; p<=10 ; p++) {
+   if ( p % 3 !==0 && p % 7 !==0) {
+      console.log(p);
+   }
+}
 
+
+for (let zad2=1 ; zad2<=550 ; zad2++) {
+   if ( zad2 % 9 ===0 ) {
+      console.log(zad2);
+   }
+}
+
+
+for (let kub=1 ; kub<=37 ; kub++) {
+   console.log(kub*kub*kub);
+}
+
+kub2=1;
+while(kub2<=37) {
+   console.log(kub2*kub2*kub2);
+   ++kub2;
+}
